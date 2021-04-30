@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -30px;
+  background-size: cover;
+}
+
+#container {
+  width: 100%;
+  height: 90%;
+
+  position: relative;
+}
+
+#container h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+
+  color: white;
+  font-size: 5rem;
+}
+
+#content {
+  width: 80%;
+  height: 35%;
+  background: rgba(0, 0, 0, 0.5);
+  
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.containerData {
+  float: left;
+
+  width: 25%;
+  height: 100%;
+
+  text-align: center;
+
+  position: relative;
+}
+
+.data {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: white;
+
+  display: block;
+
+  margin-top: 2.5rem;
+}
+
+.description {
+  font-size: 2rem;
+  color: white;
+
+  position: absolute;
+  bottom: 1.8rem;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  box-shadow: 0 0 5px white;
+
+  text-align: center;
+
+  padding-top: 1em;
+}
+
+footer p {
+  color: white;
+
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-position-x: -180px;
+    background-position-y: unset;
+  }
+ 
+  #container h1 {
+    top: 17%;
+    font-size: 3rem;
+  }
+   
+  #content {
+    width: 90%;
+    height: 30%;
+  }
+
+  .data {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+
+    bottom: 2rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+  body {
+    background-position-x: -150px;
+    background-position-y: unset;
+  }
+  #container h1 {
+    top: 17%;
+    font-size: 3rem;
+  }
+   
+  #content {
+    width: 90%;
+    height: 30%;
+  }
+
+  .data {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+
+    bottom: 2rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 500px) {
+  body {
+    background-position-y: unset;
+    background-position-x: -100px;
+  }
+  #container h1 {
+    top: 17%;
+    font-size: 3rem;
+  }
+   
+  #content {
+    width: 90%;
+    height: 30%;
+  }
+
+  .data {
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+
+    bottom: 2rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 590px) {
+  body {
+    background-position-y: unset;
+    background-position-x: -80px;
+  }
+ 
+  #container h1 {
+    top: 17%;
+    font-size: 3.8rem;
+  }
+   
+  #content {
+    width: 80%;
+    height: 35%;
+  }
+
+  .data {
+    font-size: 2.7rem;
+  }
+  
+  .description {
+    font-size: 1.3rem;
+
+    bottom: 1.8rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 591px) and (max-width: 768px) {
+  body {
+    background-position-y: unset;
+    /* background-position-x: -100px; */
+  }
+ 
+  #container h1 {
+    top: 17%;
+    font-size: 4rem;
+  }
+   
+  #content {
+    width: 80%;
+    height: 35%;
+  }
+
+  .data {
+    font-size: 2.7rem;
+  }
+  
+  .description {
+    font-size: 1.3rem;
+
+    bottom: 1.8rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-position-y: unset;
+  }
+ 
+  #container h1 {
+    top: 17%;
+    font-size: 4rem;
+  }
+   
+  #content {
+    width: 80%;
+    height: 35%;
+  }
+
+  .data {
+    font-size: 2.7rem;
+  }
+  
+  .description {
+    font-size: 1.3rem;
+
+    bottom: 1.8rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+ 
+  #container h1 {
+    top: 17%;
+    font-size: 4rem;
+  }
+   
+  #content {
+    width: 80%;
+    height: 35%;
+  }
+
+  .data {
+    font-size: 2.7rem;
+  }
+  
+  .description {
+    font-size: 1.3rem;
+
+    bottom: 1.8rem;
+  }
+  
+  footer {
+    padding-top: 0.8em;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+}
