@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -66,7 +70,7 @@ body {
 
   display: block;
 
-  margin-top: 2.5rem;
+  margin-top: 1.3rem;
 }
 
 .description {
@@ -74,7 +78,7 @@ body {
   color: white;
 
   position: absolute;
-  bottom: 1.8rem;
+  bottom: 1rem;
   left: 50%;
 
   transform: translate(-50%, -50%);
@@ -90,7 +94,7 @@ footer {
 
   text-align: center;
 
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 footer p {
@@ -98,4 +102,224 @@ footer p {
 
   font-weight: 200;
   font-size: 0.9rem;
+}
+
+@media (max-width: 1440px) {
+  html {
+    font-size: 110%;
+  }
+  .data {
+    margin-top: 2rem;
+  }
+  .description {
+    bottom: 2rem;
+  }
+}
+
+@media (max-width: 1291px) {
+  body {
+    background-position-y: unset;
+  }
+  .data {
+    margin-top: 1rem;
+  }
+  .description {
+    bottom: 1rem;
+  }
+  footer {
+    padding-top: 0.7rem;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #container h1 {
+    font-size: 4rem;
+  }
+  #content {
+    height: 32%;
+  }
+  .data {
+    font-size: 3.8rem;
+  }
+  .description {
+    font-size: 1.7rem;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 872px) {
+  /* body {
+    background-position-x: -50px;
+  } */
+  #content {
+    height: 30%;
+  }
+  .data {
+    font-size: 3.4rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position-x: -50px;
+  }
+  #container h1 {
+    font-size: 3.8rem;
+  }
+  .data {
+    font-size: 3.2rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 728px) {
+  body {
+    background-position-x: -80px;
+  }
+  #container h1 {
+    font-size: 3.5rem;
+  }
+  #content {
+    height: 28%;
+  }
+  .data {
+    font-size: 3rem;
+  }
+  .description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 670px) {
+  body {
+    background-position-x: -130px;
+  }
+  #container h1 {
+    font-size: 3.3rem;
+  }
+  .data {
+    font-size: 2.8rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    background-position-x: -190px;
+  }
+  #content {
+    height: 26%;
+  }
+  .data {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 490px) {
+  body {
+    background-position-x: -140px;
+  }
+  #container h1 {
+    font-size: 3.1rem;
+  }
+  #content {
+    width: 90%;
+  }
+  .data {
+    font-size: 2.3rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 418px) {
+  body {
+    background-position-x: -150px;
+  }
+  #container h1 {
+    font-size: 2.8rem;
+  }
+  #content {
+    width: 90%;
+    height: 24%;
+  }
+  .data {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 378px) {
+  body {
+    background-position-x: -170px;
+  }
+  #container h1 {
+    font-size: 2.5rem;
+  }
+  #content {
+    width: 90%;
+    height: 24%;
+  }
+  .data {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1.05rem;
+  }
+  footer {
+    padding-top: 0.8rem;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 338px) {
+  body {
+    background-size: cover;
+  }
+  #container h1 {
+    font-size: 2.3rem;
+  }
+  #content {
+    height: 22%;
+    width: 95%;
+  }
+  .data {
+    font-size: 1.8rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    background-position-x: -180px;
+  }
+  #content {
+    height: 22%;
+    width: 95%;
+  }
+  .data {
+    font-size: 1.8rem;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
 }
