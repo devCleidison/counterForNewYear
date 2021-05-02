@@ -121,7 +121,7 @@ footer p {
     background-position-y: unset;
   }
   .data {
-    margin-top: 1rem;
+    margin: 1rem auto;
   }
   .description {
     bottom: 1rem;
@@ -153,9 +153,6 @@ footer p {
 }
 
 @media (max-width: 872px) {
-  /* body {
-    background-position-x: -50px;
-  } */
   #content {
     height: 30%;
   }
@@ -179,6 +176,7 @@ footer p {
   }
   .description {
     font-size: 1.5rem;
+    
   }
 }
 
